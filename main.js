@@ -10,3 +10,14 @@ console.log(str.length)
 
 
 
+// .trim()
+// explanation: removes white space from the beginning and end of a string
+// does NOT mutate the original string
+// use: processing user input fields
+
+const str1 = '     oh hey Jimmy  '
+console.log('str1: ', str1.length)
+console.log(str1.trim())
+console.log('str1: ', str1.trim().length)
+
+
