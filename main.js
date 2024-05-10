@@ -21,3 +21,17 @@ console.log(str1.trim())
 console.log('str1: ', str1.trim().length)
 
 
+
+// .includes()
+// explanation: returns a true or false if the called upon string contains the specified substring
+// use: check if a string contains a substring
+
+const str2 = 'Stone Cold Steve Austin'
+const str3 = 'Steve Jobs'
+const str4 = 'Stephan Marbury'
+
+console.log( str2.includes('Steve') )
+console.log( str3.includes('Steve') )
+console.log( str4.includes('Steve') )
+
+
