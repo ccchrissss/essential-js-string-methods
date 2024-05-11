@@ -35,3 +35,14 @@ console.log( str3.includes('Steve') )
 console.log( str4.includes('Steve') )
 
 
+
+// .indexOf()
+// explanation: returns the index of the specified substring if its contained within the called upon string
+// returns -1 if the substring does not exist within the string
+// use: check if  a string contains a substring
+
+console.log( str2.indexOf('Steve') )
+console.log( str3.indexOf('Steve') )
+console.log( str4.indexOf('Steve') )
+
+
