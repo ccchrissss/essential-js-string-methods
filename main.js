@@ -46,3 +46,14 @@ console.log( str3.indexOf('Steve') )
 console.log( str4.indexOf('Steve') )
 
 
+
+// .toUpperCase()
+// explanation: returns a string with all letters capitalized
+// use: eliminate case typos before evaluating string with another method
+
+str5 = 'Hello there, General Kenobi'
+
+console.log( str5.toUpperCase() )
+
+
+
