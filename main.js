@@ -57,3 +57,12 @@ console.log( str5.toUpperCase() )
 
 
 
+// .toLowerCase()
+// explanation: returns a string with all letters lower case
+// use: eliminate case typos before evaluating string with another method
+
+console.log( str5.toLowerCase() )
+
+
+
+// 
