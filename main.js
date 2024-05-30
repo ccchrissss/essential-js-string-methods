@@ -65,4 +65,27 @@ console.log( str5.toLowerCase() )
 
 
 
-// 
+// .replace()
+// explanation: replaces the first occurence of a pattern with the specified replacement
+// use: change a user's name in a block of text that will be displayed to individual viewers
+
+str6 = 'Harry Potter and the blank'
+strReplacement = 'Prisoner of Azkaban'
+
+console.log( str6.replace('blank', strReplacement))
+
+
+
+// .slice()
+// explanation: grabs a section of a string starting with the supplied index until the last index, or until the indexEnd if specified
+// str.slice(indexStart)
+// str.slice(indexStart, indexEnd)
+
+let str7 = 'Hello, this is my name: George Q Georgeson'
+let lastName = str7.slice(24)
+let firstName = str7.slice(24, 30)
+let fullName = str7.slice(str7.indexOf(':') + 2)
+
+console.log(lastName)
+console.log(firstName)
+console.log(fullName)
